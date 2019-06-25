@@ -18,7 +18,7 @@ jobs:
       - image: circleci/ruby:2.4.1
     steps:
       - attach_workspace:
-          # Must be absolute path or relative path from working_directory
+          # Must be absolute path or relative path from working_directory not new 
           at: my_workspace
 
       - run: cat my_workspace/echo-output
